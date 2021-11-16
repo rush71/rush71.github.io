@@ -658,8 +658,8 @@ body {
     .testimony__container{
         grid-template-columns: 28px 1fr 28px; /* REVISAR ESTO QUE NO ESTA RESPONSIVE */
         gap: .9em;
-        text-align: center;
-        justify-content: center;
+        /* text-align: center;
+        justify-content: center; */
         display: grid;
 
     }
