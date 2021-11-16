@@ -656,7 +656,7 @@ body {
         --padding-container: 60px 0;
     }
     .testimony__container{
-        grid-template-columns: 1fr 300px 1fr; /* REVISAR ESTO QUE NO ESTA RESPONSIVE */
+        grid-template-columns: 28px 2fr 28px; /* REVISAR ESTO QUE NO ESTA RESPONSIVE */
         gap: .9em;
     }
 
