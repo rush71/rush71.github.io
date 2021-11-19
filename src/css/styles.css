@@ -625,6 +625,11 @@ body {
         grid-column: 1/-1;
     }
 
+    .price, .about{
+        background-size: 200%;
+
+    }
+
     .knowledge__container{
         grid-template-columns: 1fr;
         grid-template-rows: max-content 1fr;
@@ -704,6 +709,11 @@ body {
 
     .price__element{
         width: 90%;
+    }
+
+    .price, .about{
+        background-size: 200%;
+
     }
 
     .prince__element--best{
