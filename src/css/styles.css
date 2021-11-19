@@ -3,7 +3,8 @@
 :root {
     --padding-container: 100px 0;
     --color-title: #5E8B7E;
-    --color-white: #fff
+    --color-white: #fff;
+    --color-cta: #fff;
 }
 body {
     font-family: 'Montserrat', sans-serif;
@@ -143,9 +144,8 @@ body {
 .about {
     text-align: center;
     color: #fff;
-    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url(/src/img/pez7.jpg);
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url(/src/img/pez8.jpg);
     background-size: cover; /*para que se adapte la img a la pagina*/
-    /* clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%); */
     z-index: -1;
     width: 100%;
     
@@ -196,7 +196,7 @@ body {
     /* background-image: radial-gradient(#5f32b3 0.65px, rgb(46, 37, 37) 0.65px); */
     background-size: 13px 13px;
     overflow: hidden;
-    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url(/src/img/pez7.jpg);
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url(/src/img/pez8.jpg);
     background-size: cover; /*para que se adapte la img a la pagina*/
     /* clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%); */
     z-index: -1;
@@ -234,7 +234,7 @@ body {
 
 .price{
     text-align: center;
-    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url(/src/img/pez7.jpg);
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url(/src/img/pez8.jpg);
     background-size: cover; /*para que se adapte la img a la pagina*/
     /* clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%); */
     z-index: -1;
@@ -252,7 +252,7 @@ body {
 }
 
 .price__element{
-    background: linear-gradient(to bottom right, #263a37, #5d8883, #425856);
+    background: linear-gradient(to bottom right, #263a37, #655d88, #425856);
     text-align: center;
     border-radius: 30px;
     width: 300px;
@@ -263,8 +263,8 @@ body {
     --color-cta: #FFF;
     --color-items: #fff;
     margin: 30px;
-    opacity: .8;
-    font-weight: 300;
+    opacity: .5;
+    font-weight: 500;
 
 
 }
@@ -303,6 +303,7 @@ body {
     font-weight: 600;
     box-shadow: 0 0 1px rgba(0, 0, 0, .5);
     color: var(--color-cta);
+    font-size: 20px;
 
 
 }
@@ -311,20 +312,22 @@ body {
     /* background-color: #f75e2c; */
     width: 370px;
     padding: 60px 40px;
-
-
     --color-plan: rgb(255 255 255 / 75%); /*transparencia del 75%*/
     --color-price: #fff;
-    --bg-cta: #813018;
+    --bg-cta: rgb(21, 39, 104);
     --color-cta: #FFF;
     --color-items: #fff;
+    opacity: .7;
 }
 
 
 /* testimony */
 
 .testimony{
-    background-color: #000;
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url(/src/img/pez8.jpg);
+    background-size: cover; /*para que se adapte la img a la pagina*/
+    /* clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%); */
+    z-index: -1;
 
 }
 
@@ -380,7 +383,7 @@ body {
 }
 
 .testimony__course{
-    background-color: royalblue;
+    background-color: rgb(29, 63, 165);
     border-radius: 10px;
     color: #fff;
     display: inline-block;
@@ -397,6 +400,10 @@ body {
 
 .questions{
     text-align: center;
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url(/src/img/pez8.jpg);
+    background-size: cover; /*para que se adapte la img a la pagina*/
+    /* clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%); */
+    z-index: -1;
 
 }
 
@@ -436,7 +443,7 @@ body {
 }
 .questions__arrow{
     border-radius: 50%;
-    background-color: var(--color-title);
+    background-color: #1a0c6b;
     width: 25px;
     height: 25px;
     display: flex;
