@@ -252,17 +252,18 @@ body {
 }
 
 .price__element{
-    background: linear-gradient(to bottom right, #263a37, #71a19b, #89B5AF);
+    background: linear-gradient(to bottom right, #263a37, #5d8883, #425856);
     text-align: center;
     border-radius: 30px;
     width: 350px;
     padding: 40px;
     --color-plan: #FFF;
-    --color-price: #96C7C1;
+    --color-price: #fff;
     --bg-cta: rgb(128, 122, 122);
     --color-cta: #FFF;
     --color-items: #fff;
     margin: 30px;
+    opacity: .8;
 
 }
 
@@ -312,7 +313,7 @@ body {
 
     --color-plan: rgb(255 255 255 / 75%); /*transparencia del 75%*/
     --color-price: #fff;
-    --bg-cta: #9F3919;
+    --bg-cta: #813018;
     --color-cta: #FFF;
     --color-items: #fff;
 }
