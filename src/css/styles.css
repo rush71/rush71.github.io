@@ -2,13 +2,18 @@
 
 :root {
     --padding-container: 100px 0;
-    --color-title: #001A49;
+    --color-title: #5E8B7E;
+    --color-white: #fff
 }
 body {
     font-family: 'Montserrat', sans-serif;
-    
-    
+    background-color: #000;
+
 }
+
+    
+    
+
 
 
 
@@ -16,9 +21,10 @@ body {
 .container {
     width: 90%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 10px auto;
     overflow: hidden;
     padding: var(--padding-container);
+
     
 }
 
@@ -106,6 +112,7 @@ body {
     padding-bottom: 100px;
     text-align: center;
 
+
     
 }
 
@@ -135,6 +142,14 @@ body {
 
 .about {
     text-align: center;
+    color: #fff;
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url(/src/img/pez7.jpg);
+    background-size: cover; /*para que se adapte la img a la pagina*/
+    /* clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%); */
+    z-index: -1;
+    width: 100%;
+    
+
     
 }
 
@@ -146,6 +161,7 @@ body {
 
 .about__paragraph {
     line-height: 1.7;
+    margin: 10px;
 }
 
 .about__main{
@@ -175,10 +191,15 @@ body {
 /*knowledge */
 
 .knowledge{
-    background-color: #e5e5f7;
-    background-image: radial-gradient(#3039e5 0.65px, #fff 0.65px);
+    background-color: rgb(1, 1, 32);
+    color: #fff;
+    /* background-image: radial-gradient(#5f32b3 0.65px, rgb(46, 37, 37) 0.65px); */
     background-size: 13px 13px;
     overflow: hidden;
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url(/src/img/pez7.jpg);
+    background-size: cover; /*para que se adapte la img a la pagina*/
+    /* clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%); */
+    z-index: -1;
 }
 
 .knowledge__container{
@@ -205,6 +226,7 @@ body {
 .knowledge__img{
     width: 100%;
     display: block;
+    border-radius: 20%;
 
 }
 
@@ -212,6 +234,11 @@ body {
 
 .price{
     text-align: center;
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url(/src/img/pez7.jpg);
+    background-size: cover; /*para que se adapte la img a la pagina*/
+    /* clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%); */
+    z-index: -1;
+    width: 100%;
 }
 
 .price__table{
@@ -225,16 +252,17 @@ body {
 }
 
 .price__element{
-    background-color: #e5e5f7;
+    background: linear-gradient(to bottom right, #263a37, #71a19b, #89B5AF);
     text-align: center;
-    border-radius: 10px;
-    width: 330px;
+    border-radius: 30px;
+    width: 350px;
     padding: 40px;
-    --color-plan: #232325;
-    --color-price: #1d293f;
-    --bg-cta: #fff;
-    --color-cta: #5454D4;
-    --color-items: #161618;
+    --color-plan: #FFF;
+    --color-price: #96C7C1;
+    --bg-cta: rgb(128, 122, 122);
+    --color-cta: #FFF;
+    --color-items: #fff;
+    margin: 30px;
 
 }
 
@@ -242,6 +270,7 @@ body {
     color: var(--color-plan);
     margin-bottom: 15px;
     font-weight: 350;
+    font-size: 30px;
 
 }
 
@@ -284,7 +313,7 @@ body {
     --color-plan: rgb(255 255 255 / 75%); /*transparencia del 75%*/
     --color-price: #fff;
     --bg-cta: #9F3919;
-    --color-cta: #fff;
+    --color-cta: #FFF;
     --color-items: #fff;
 }
 
@@ -292,7 +321,7 @@ body {
 /* testimony */
 
 .testimony{
-    background-color: #e5e5f7;
+    background-color: #000;
 
 }
 
@@ -323,6 +352,10 @@ body {
     transition: opacity 1.5s ease-in-out;
 }
 
+.testimony__review{
+    color: #fff;
+}
+
 .testimony__img{
     width: 250px;
     height: 250px;
@@ -345,6 +378,7 @@ body {
 
 .testimony__course{
     background-color: royalblue;
+    border-radius: 10px;
     color: #fff;
     display: inline-block;
     padding: 5px;
